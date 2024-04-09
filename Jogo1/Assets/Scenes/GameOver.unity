@@ -206,10 +206,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 803e863b617b03541abb9f10d960f5b9, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 1387150291}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: FecharOpcoes
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1452,7 +1452,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nomedoLevel: SampleScene
   nomedoLevel2: INICIO
-  painelMenuPrincipal: {fileID: 0}
 --- !u!1 &1441067432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,10 +1878,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 803e863b617b03541abb9f10d960f5b9, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 1387150291}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: Jogar
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

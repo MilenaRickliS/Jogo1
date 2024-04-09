@@ -6,7 +6,7 @@ public class GameOver : MonoBehaviour
 {
     [SerializeField]private string nomedoLevel;
     [SerializeField]private string nomedoLevel2;
-    [SerializeField]private GameObject painelMenuPrincipal;
+    // [SerializeField]private GameObject painelMenuPrincipal;
     
     public void Jogar()
     {
@@ -14,7 +14,6 @@ public class GameOver : MonoBehaviour
     }
     public void FecharOpcoes()
     {
-        painelMenuPrincipal.SetActive(true);
         SceneManager.LoadScene(nomedoLevel2);
         
     }
