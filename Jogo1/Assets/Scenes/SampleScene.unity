@@ -3957,6 +3957,7 @@ MonoBehaviour:
   PontosPlayer: {fileID: 392927885}
   vidaMaxima: 5
   vidaAtual: 0
+  gameover: GameOver
 --- !u!114 &501720096
 MonoBehaviour:
   m_ObjectHideFlags: 0

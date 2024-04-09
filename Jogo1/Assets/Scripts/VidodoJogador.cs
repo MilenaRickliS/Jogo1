@@ -9,6 +9,8 @@ public class VidodoJogador : MonoBehaviour
     public Text PontosPlayer;
     public int vidaMaxima;
     public int vidaAtual;
+
+    [SerializeField]private string gameover;
     // public Transform startPosition;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class VidodoJogador : MonoBehaviour
         if(vidaAtual <= 0){
             Debug.Log("Game over");
             Time.timeScale = 0;
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene(gameover);
         }
     }
 }
